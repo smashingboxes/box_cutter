@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = Date.today.strftime('%Y-%m-%d')
 
   s.description = <<-EOS
-BoxCutter is inspired by thoughtbot's Suspenders. Just like Suspenders says, use BoxCutter if you're in a
+Box Cutter is inspired by thoughtbot's Suspenders. Just like Suspenders says, use Box Cutter if you're in a
 rush to build something amazing; don't use it if you like missing deadlines.
   EOS
 
@@ -17,7 +17,7 @@ rush to build something amazing; don't use it if you like missing deadlines.
   s.executables = ['box_cutter']
   s.extra_rdoc_files = %w[README.md LICENSE]
   s.files = `git ls-files`.split("\n")
-  s.homepage = 'http://github.com/leonelgalan/box_cutter'
+  s.homepage = 'http://github.com/smashingboxes/box_cutter'
   s.license = 'MIT'
   s.name = 'box_cutter'
   s.rdoc_options = ['--charset=UTF-8']
