@@ -8,7 +8,7 @@
 * [ ] Improve Box Cutter's README
 * [ ] Set PostreSQL as default
 * [ ] Skip test unit by default
-* [ ] Discuss using RSpec as a default
+* [x] Discuss using RSpec as a default (See #2)
 * [ ] Discuss using .ruby-version or not
 * [ ] Add Slim
 * [ ] Add Simple Form
