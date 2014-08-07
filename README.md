@@ -8,14 +8,14 @@
 * [ ] Improve Box Cutter's README
 * [ ] Set PostreSQL as default
 * [ ] Skip test unit by default
-* [x] Discuss using RSpec as a default (See #2)
-* [ ] Discuss using .ruby-version or not
+* [x] Discuss using RSpec as a default (See [#2](https://github.com/smashingboxes/box_cutter/issues/2))
+* [x] Discuss using .ruby-version or not (See [#3](https://github.com/smashingboxes/box_cutter/issues/3))
 * [ ] Add Slim
 * [ ] Add Simple Form
 * [ ] Add Letter Opener and set Mailer for development
 * [ ] Add Quiet Assets
 * [ ] Add Better Errors and Binding or Caller
-* [ ] Add Pry (Debugger or Byebug?)
+* [ ] Add Pry (Debugger or Byebug? See [#4](https://github.com/smashingboxes/box_cutter/issues/4))
 * [ ] Discuss adding Annotate
 * [ ] Discuss adding Foreman
 * [ ] Add custom error pages
