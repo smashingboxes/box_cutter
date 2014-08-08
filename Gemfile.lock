@@ -109,5 +109,5 @@ PLATFORMS
 
 DEPENDENCIES
   box_cutter!
-  pry
+  pry (~> 0.10)
   rspec (~> 3.0)
