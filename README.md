@@ -1,7 +1,8 @@
 # Box Cutter
 ![ScreenShot](box_cutter.jpg)
 [//]: # (Image by Evan-Amos taken from http://commons.wikimedia.org/wiki/File:Box-cutter.jpg)
-
+[![Code Climate](https://codeclimate.com/github/smashingboxes/box_cutter/badges/gpa.svg)](https://codeclimate.com/github/smashingboxes/box_cutter)
+[![Test Coverage](https://codeclimate.com/github/smashingboxes/box_cutter/badges/coverage.svg)](https://codeclimate.com/github/smashingboxes/box_cutter)
 ## Pre-release TODO
 * [ ] Add Travis (.yml and badge)
 * [ ] Add Code Climate (Test coverage with Travis and badge)
