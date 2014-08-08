@@ -15,13 +15,13 @@
 * [ ] Add Letter Opener and set Mailer for development
 * [ ] Add Quiet Assets
 * [ ] Add Better Errors and Binding or Caller
-* [ ] Add Pry (Debugger or Byebug? See [#4](https://github.com/smashingboxes/box_cutter/issues/4))
-* [ ] Discuss adding Annotate
-* [ ] Discuss adding Foreman
+* [x] Add Pry-Byebug ~~(Debugger or Byebug? See [#4](https://github.com/smashingboxes/box_cutter/issues/4))~~
+* [x] Discuss adding Annotate (See [#5](https://github.com/smashingboxes/box_cutter/issues/5))
+* [ ] Discuss adding Foreman (See [#6](https://github.com/smashingboxes/box_cutter/issues/6))
 * [ ] Add custom error pages
-* [ ] Discuss adding Foundation
-* [ ] Discuss changing default application.js to application.coffee
-* [ ] Change default application.css to application.sass (or scss?)
+* [x] Discuss adding Foundation (See [#7](https://github.com/smashingboxes/box_cutter/issues/7))
+* [ ] Discuss changing default application.js to application.coffee (See [#8](https://github.com/smashingboxes/box_cutter/issues/8))
+* [ ] Change default application.css to application.sass (or scss?) ((See [#9](https://github.com/smashingboxes/box_cutter/issues/9))
 * [ ] Add Github's Rails.gitignore
 * [ ] Set Mailer for staging, and production
 * [ ] Skip bundle and do a `bundle update` at a later step
