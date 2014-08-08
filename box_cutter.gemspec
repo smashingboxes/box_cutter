@@ -30,5 +30,5 @@ rush to build something amazing; don't use it if you like missing deadlines.
   s.add_dependency 'rails', BoxCutter::RAILS_VERSION
 
   s.add_development_dependency 'rspec', '~> 3.0'
-  s.add_development_dependency 'pry'
+  s.add_development_dependency 'pry',   '~> 0.10'
 end
