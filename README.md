@@ -5,7 +5,7 @@
 [![Test Coverage](https://codeclimate.com/github/smashingboxes/box_cutter/badges/coverage.svg)](https://codeclimate.com/github/smashingboxes/box_cutter)
 ## Pre-release TODO
 * [ ] Add Travis (.yml and badge)
-* [ ] Add Code Climate (Test coverage with Travis and badge)
+* [x] Add Code Climate (Test coverage with Travis and badge)
 * [ ] Improve Box Cutter's README
 * [ ] Set PostreSQL as default
 * [ ] Skip test unit by default
@@ -23,7 +23,7 @@
 * [x] Discuss adding Foundation (See [#7](https://github.com/smashingboxes/box_cutter/issues/7))
 * [ ] Discuss changing default application.js to application.coffee (See [#8](https://github.com/smashingboxes/box_cutter/issues/8))
 * [ ] Change default application.css to application.sass (or scss?) ((See [#9](https://github.com/smashingboxes/box_cutter/issues/9))
-* [ ] Add Github's Rails.gitignore
+* [x] Add Github's Rails.gitignore
 * [ ] Set Mailer for staging, and production
 * [ ] Skip bundle and do a `bundle update` at a later step
 * [ ] Add a Sitemap Generator and a robots.txt
