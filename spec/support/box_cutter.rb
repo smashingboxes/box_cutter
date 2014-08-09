@@ -1,5 +1,5 @@
 module BoxCutterTestHelpers
-  APP_NAME = 'dummy'
+  APP_NAME = 'Dummy'
 
   def remove_project_directory
     FileUtils.rm_rf(project_path)
@@ -20,7 +20,7 @@ module BoxCutterTestHelpers
   end
 
   def drop_dummy_database
-    if File.exist?(project_path)
+    if File.directory?(project_path)
       Dir.chdir(project_path) do
         Bundler.with_clean_env do
           `rake db:drop`
