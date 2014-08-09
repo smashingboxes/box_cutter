@@ -1,0 +1,18 @@
+source 'https://rubygems.org'
+
+ruby "<%= BoxCutter::RUBY_VERSION %>"
+
+gem 'rails', '<%= BoxCutter::RAILS_VERSION %>'
+gem 'pg'
+gem 'unicorn'
+
+# Assets
+gem 'sass-rails', '~> 4.0.3'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
+
+group :development do
+  gem 'spring'
+  gem 'spring-commands-rspec'
+end
