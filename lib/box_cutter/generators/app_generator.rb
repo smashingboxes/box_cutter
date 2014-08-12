@@ -13,6 +13,13 @@ module BoxCutter
 
     def cut_dev_environment
       invoke :cut_database
+      invoke :cut_travis
+    end
+
+    def cut_travis
+      say 'Setting up Travis configs'
+
+      build :config_travis
     end
 
     def cut_database

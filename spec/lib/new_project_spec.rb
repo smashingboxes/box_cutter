@@ -22,6 +22,12 @@ describe 'Box cut a new project with default configuration' do
     expect(gemfile).to match(/uglifier/)
   end
 
+  it 'sets up travis.yml' do
+    travis_yml = IO.read("#{project_path}/.travis.yml")
+
+    expect(travis_yml).to match(/psql/)
+  end
+
   describe 'database' do
     it 'creates the database config' do
       expect(File.file?("#{project_path}/config/database.yml")).to eq(true)

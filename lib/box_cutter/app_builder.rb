@@ -17,6 +17,10 @@ module BoxCutter
       template 'database.yml.erb', 'config/database.example.yml', force: true
     end
 
+    def config_travis
+      template 'travis.yml.erb', '.travis.yml'
+    end
+
     def create_database
       bundle_command 'exec rake db:create db:migrate'
     end
